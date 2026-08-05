@@ -63,3 +63,22 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+## 5. Git Commit Messages
+
+- Use the Conventional Commits format: `<type>(optional-scope): <description>`.
+- Keep `type` in English for tool compatibility, using types such as `feat`, `fix`, `docs`, `refactor`, `test`, `build`, `ci`, `chore`, and `revert`.
+- Write the description and body in Korean.
+- Keep the subject within 50 characters and do not end it with a period.
+- Use an imperative, action-oriented style for the subject.
+- Separate the subject and body with one blank line.
+- Wrap the body at 72 characters when a body is needed.
+- Explain what changed and why; omit implementation details unless they are necessary.
+
+Example:
+
+```text
+feat(player): 플레이어 이동 기능 추가
+
+플레이어가 키보드 입력으로 이동할 수 있도록 추가합니다.
+```
