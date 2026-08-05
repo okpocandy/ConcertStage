@@ -71,6 +71,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Write the description and body in Korean.
 - Keep the subject within 50 characters and do not end it with a period.
 - Use an imperative, action-oriented style for the subject.
+- Include the main files, features, settings, or other contents changed or added in the description; avoid vague descriptions.
 - Separate the subject and body with one blank line.
 - Wrap the body at 72 characters when a body is needed.
 - Explain what changed and why; omit implementation details unless they are necessary.
