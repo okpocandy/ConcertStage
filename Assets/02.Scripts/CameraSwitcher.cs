@@ -25,13 +25,29 @@ public class CameraSwitcher : MonoBehaviour
         if (keyboard.digit4Key.wasPressedThisFrame) SwitchCamera(3);
         if (keyboard.digit5Key.wasPressedThisFrame) SwitchCamera(4);
         if (keyboard.digit6Key.wasPressedThisFrame) SwitchCamera(5);
+        if (keyboard.digit7Key.wasPressedThisFrame) SwitchCamera(6);
     }
 
     private void SwitchCamera(int index)
     {
         for (int i = 0; i < cameras.Length; i++)
         {
+            SplineCameraMover mover = cameras[i].GetComponent<SplineCameraMover>();
+            if (mover != null)
+            {
+                mover.Stop();
+            }
+
             cameras[i].Priority = i == index ? 100 : 0;
+        }
+
+        if (index >= 0 && index < cameras.Length)
+        {
+            SplineCameraMover mover = cameras[index].GetComponent<SplineCameraMover>();
+            if (mover != null)
+            {
+                mover.PlayFromStart();
+            }
         }
     }
 }
