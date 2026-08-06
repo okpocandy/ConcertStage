@@ -71,8 +71,9 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Write the description and body in Korean.
 - Keep the subject within 50 characters and do not end it with a period.
 - Use an imperative, action-oriented style for the subject.
-- Include the main files, features, settings, or other contents changed or added in the description; avoid vague descriptions.
+- Use the subject description to summarize the primary purpose and include the main feature, file, setting, or content changed or added; avoid vague descriptions.
 - Separate the subject and body with one blank line.
+- When a commit changes or adds multiple files or features, always include a Korean body listing the major changes and the reason for them.
 - Wrap the body at 72 characters when a body is needed.
 - Explain what changed and why; omit implementation details unless they are necessary.
 
@@ -81,5 +82,6 @@ Example:
 ```text
 feat(player): 플레이어 이동 기능 추가
 
-플레이어가 키보드 입력으로 이동할 수 있도록 추가합니다.
+플레이어 이동 기능을 추가하고 관련 입력 처리를 연결합니다.
+이동 기능이 필요한 게임플레이를 지원하기 위해 변경합니다.
 ```
