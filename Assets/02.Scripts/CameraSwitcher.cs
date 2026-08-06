@@ -26,6 +26,8 @@ public class CameraSwitcher : MonoBehaviour
         if (keyboard.digit5Key.wasPressedThisFrame) SwitchCamera(4);
         if (keyboard.digit6Key.wasPressedThisFrame) SwitchCamera(5);
         if (keyboard.digit7Key.wasPressedThisFrame) SwitchCamera(6);
+        if (keyboard.digit8Key.wasPressedThisFrame) SwitchCamera(7);
+        if (keyboard.digit9Key.wasPressedThisFrame) SwitchCamera(8);
     }
 
     private void SwitchCamera(int index)
