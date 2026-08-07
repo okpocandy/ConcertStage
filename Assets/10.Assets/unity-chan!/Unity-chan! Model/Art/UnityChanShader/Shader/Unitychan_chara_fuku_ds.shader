@@ -54,5 +54,6 @@ Shader "UnityChan/Clothing - Double-sided"
             ENDHLSL
         }
 
+        UsePass "Universal Render Pipeline/Lit/ShadowCaster"
     }
 }

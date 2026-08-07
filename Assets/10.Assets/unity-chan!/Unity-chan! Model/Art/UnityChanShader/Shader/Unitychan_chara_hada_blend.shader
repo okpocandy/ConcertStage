@@ -37,6 +37,7 @@ Shader "UnityChan/Skin - Transparent"
             #pragma fragment frag
             ENDHLSL
         }
+         UsePass "Universal Render Pipeline/Lit/ShadowCaster"
     }
 
 }

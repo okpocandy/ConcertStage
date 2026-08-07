@@ -54,5 +54,6 @@ Shader "UnityChan/Clothing"
             ENDHLSL
         }
 
+        UsePass "Universal Render Pipeline/Lit/ShadowCaster"
     }
 }

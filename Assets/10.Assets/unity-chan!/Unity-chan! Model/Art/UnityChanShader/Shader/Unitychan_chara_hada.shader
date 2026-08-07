@@ -49,6 +49,7 @@ Shader "UnityChan/Skin"
             ENDHLSL
         }
 
+        UsePass "Universal Render Pipeline/Lit/ShadowCaster"
     }
 
     FallBack "Transparent/Cutout/Diffuse"

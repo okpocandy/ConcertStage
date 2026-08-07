@@ -54,6 +54,7 @@ Shader "UnityChan/Hair"
             ENDHLSL
         }
 
+        UsePass "Universal Render Pipeline/Lit/ShadowCaster"
     }
 
 }
