@@ -6,7 +6,7 @@ LightingSettings:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StageLight
+  m_Name: Lighting1
   serializedVersion: 10
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
@@ -45,7 +45,7 @@ LightingSettings:
   m_ForceUpdates: 0
   m_PVRCulling: 1
   m_PVRSampling: 1
-  m_PVRDirectSampleCount: 32
+  m_PVRDirectSampleCount: 64
   m_PVRSampleCount: 512
   m_PVREnvironmentSampleCount: 256
   m_PVREnvironmentReferencePointCount: 2048
